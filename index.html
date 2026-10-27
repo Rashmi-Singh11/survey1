@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍃Survey Form🍃</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+        <div class="heading">
+            <h1>🍃Survey Form🍃</h1>
+        </div>
+   
+   <form id="survey1-form">
+    <div class="survey-form">
+        <div class="name common">
+            <p class="para" >1. Full Name*</p>
+        <input type="text" placeholder="Enter your full name" class="name-input" id="name">
+        </div>
+
+        <div class="phone-number common" >
+            <p class="para">2. Phone Number*</p>
+            <input type="text" placeholder="Enter your phone number" class="phone-input" id="phone">
+        </div>
+
+        <div class="email common">
+            <p class="para">3. Email*</p>
+            <input type="text" placeholder="Enter your email" class="email-input" id="email">
+        </div>
+
+        <div class="gender common">
+            <p class="para">4. Gender*</p>
+            <div class="gender-input"><input type="radio" name="gender" value="male"> Male</div>
+            <div class="gender-input"><input type="radio" name="gender" value="female"> Female</div>
+            <div class="gender-input"><input type="radio" name="gender" value="prefer-not-to-say"> Prefer not to say</div>
+        </div>
+
+        <div class="age common">
+            <p class="para">5. Select your Age*</p>
+            <div class="gender-input"><input type="radio" name="age" value="18-25"> 18-25</div>
+            <div class="gender-input"><input type="radio" name="age" value="26-35"> 26-35</div>
+            <div class="gender-input"><input type="radio" name="age" value="36-45"> 36-45</div>
+            <div class="gender-input"><input type="radio" name="age" value="46+"> 46+</div>
+        </div>
+
+
+        <div class="Experience common">
+            <p class="para">6. How was your experience with our service?</p>
+            <div class="gender-input"><input type="radio" name="experience" value="excellent"> Excellent</div>
+            <div class="gender-input"><input type="radio" name="experience" value="good"> Good</div>
+            <div class="gender-input"><input type="radio" name="experience" value="average"> Average</div>
+            <div class="gender-input"><input type="radio" name="experience" value="poor"> Poor</div>
+        </div>
+
+        <div class="comments common">
+            <p class="para">7. Additional Comments</p>
+            <textarea placeholder="Enter your comments here" class="textarea-input" id="comments"></textarea>
+        </div>
+    </div>
+
+    <div class="submit-button">
+
+        <button type="submit" class="submit-text">🍃Submit🍃</button>
+    </div>
+
+   </form>
+
+
+
+   <script src="script.js"></script>
+    
+</body>
+</html>

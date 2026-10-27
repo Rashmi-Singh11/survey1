@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#survey1-form{
+    background-color: #f0f0f0;
+}
+
+.heading{
+    background-color: rgb(48, 155, 5);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.common{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px;
+   
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #8ef886;
+}
+
+.name-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.phone-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.gender-input{
+    padding: 10px;
+   font-weight: bold;
+}
+
+.textarea-input{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.para{
+    font-weight: bold;
+}
+
+.submit-button{
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid black;
+    
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit-text{
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.thankyou{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #a1ecac;
+}
+
+
+.information{
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 20px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #a1ecac;
+}
+
+.common2{
+    margin: 20px;
+}
+
+.tree{
+   font-size: large;
+    text-align: center;
+}
